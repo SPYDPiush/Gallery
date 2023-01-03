@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <script src="https://kit.fontawesome.com/e7964fa4d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div id="logo">
+                <p>Photo<span>pi</span>X</p>
+            </div>
+            <div class="tab">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#Gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="login">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li>
+                        <input type="button" value="Login">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="search" id="home">
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <p align="center"><i class="fa-solid fa-camera" id="camera"></i></p>
+                    <p id="search_content" align="center" data-aos="fade-up" data-aos-delay="600">Capturing the moments that <br>captivate your heart. </p>
+                    <p align="center">
+                        <input type="search" placeholder="search here...."> <span><button type="button"><i class="fa-solid fa-magnifying-glass"></i></button></span>
+                    </p>
+                </div>
+            </div>
+            <div class="tab-links" id="Gallery">
+                <ul>
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".nature">Nature</li>
+                    <li data-filter=".fashion">Fashion</li>
+                    <li data-filter=".wedding">Wedding</li>
+                </ul>
+            </div>
+            <div class="tab-pic">
+                <div class="item nature" data-aos="flip-left" data-aos-delay="100" data-aos-offset="150">
+                    <img src="./photopix/p1.jpg" alt="" width="100" height="100" >
+                </div>
+                <div class="item fashion" data-aos="flip-left" data-aos-delay="200" data-aos-offset="150">
+                    <img src="./photopix/p2.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item wedding" data-aos="flip-left" data-aos-delay="300" data-aos-offset="150">
+                    <img src="./photopix/p3.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item nature" data-aos="flip-left" data-aos-delay="100" data-aos-offset="210">
+                    <img src="./photopix/p4.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item fashion" data-aos="flip-left" data-aos-delay="200" data-aos-offset="210">
+                    <img src="./photopix/p5.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item wedding" data-aos="flip-left" data-aos-delay="300" data-aos-offset="210">
+                    <img src="./photopix/p6.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item nature" data-aos="flip-left" data-aos-delay="100" data-aos-offset="250">
+                    <img src="./photopix/p7.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item wedding" data-aos="flip-left" data-aos-delay="200" data-aos-offset="250">
+                    <img src="./photopix/p8.jpg" alt="" width="100" height="100">
+                </div>
+                <div class="item fashion" data-aos="flip-left" data-aos-delay="300" data-aos-offset="250">
+                    <img src="./photopix/p9.jpg" alt="" width="100" height="100">
+                </div>
+            </div>
+            <div class="info" id="about">
+                <h4 align="center">Our <span>Informations</span></h4>
+                <p style="margin-bottom:20px">What our member says</p>
+                <div id="profile"><img src="./photopix/member.png" alt=""></div>
+                <div id="content">From Uttar Pradesh doing Gym for healthy life it helps our body to fit it release stress from our mind also playing badminton to fit body.</div>
+                <div><h3>* Aditi Singh</h3></div>
+                <div class="social">
+                    <img src="./photopix/icon1.png" alt="">
+                    <img src="./photopix/icon2.png" alt="">
+                    <img src="./photopix/icon3.png" alt="">
+                    <img src="./photopix/icon4.png" alt="">
+                </div>
+            </div>
+            <div class="member" data-aos="zoom-in-right" data-aos-delay="200">
+                <img src="./photopix/s1.jpg" alt="">
+                <img src="./photopix/s2.jpg" alt="">
+                <img src="./photopix/s3.jpg" alt="">
+                <img src="./photopix/s4.jpg" alt="">
+                <img src="./photopix/s5.jpg" alt="">
+                <img src="./photopix/s6.jpg" alt="">    
+            </div>
+
+        </section>
+        <footer id="contact">
+            <div class="letter" data-aos="zoom-in" data-aos-delay="300" >
+                <div>
+                    <p id="news">Subscribe our newsletter</p>
+                    <p id="">We're a team of non-cynics who truly care for our work.</p>
+                </div>
+                <div class="subscribe">
+                    <input type="text" placeholder="Enter the email" name="" id="">
+                    <span id="sub">Subscribe</span>
+                </div>
+            </div>
+            <div class="foot-section" data-aos="zoom-in" data-aos-delay="220" data-aos-offset="230">
+                <div class="infomation">
+                    <h4>Information</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nesciunt?</p>
+                    <p id="info-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </p>
+                </div>
+                <div class="links">
+                    <h4>Useful links</h4>
+                    <p>About us</p>
+                    <p>Gallery</p>
+                    <p>Blog posts</p>
+                    <p>Pricing plans</p>
+                </div>
+                <div class="details">
+                    <h4>Details</h4>
+                    <p>Photographers</p>
+                    <p>Gallery</p>
+                    <p>About</p>
+                    <p>Pricing plans</p>
+                </div>
+                <div class="helps">
+                    <h4>Help & Support</h4>
+                    <p>Privacy policy</p>
+                    <p>Term & conditions</p>
+                    <p>Technical support</p>
+                    <p>Customer care</p>
+                </div>
+            </div>
+            <hr style="margin-top: 20px;">
+        </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.tab-pic').isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+    });
+                $('.tab-links ul li').click(function(){
+                $('.tab-links ul li').removeClass('active');
+                $(this).addClass('active');
+                    
+                    var selector=$(this).attr('data-filter');
+                    $('.tab-pic').isotope({
+                        filter:selector
+                    });
+                    return false;
+        });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+      AOS.init();
+</script>
+</body>
+</html>
